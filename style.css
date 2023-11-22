@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%; /* 10rem */
+}
+
+body {
+  background: #ECE9FD;
+  color: #090039;
+  padding: 6.0rem 2.3rem 6.6rem;
+  font-family: 'Epilogue', sans-serif;
+}
+
+main {
+  max-width: 33rem;
+  margin: 0 auto;
+}
+
+main p:first-child {
+  color: #7158EF;
+  font-weight: 400;
+  line-height: 3.2rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+}
+
+h1 {
+  font-size: 4.0rem;
+  font-weight: 800;
+  line-height: 4.8rem;
+  margin-bottom: 1.5rem;
+}
+
+h1 + p {
+  color: rgba(10, 0, 57, 0.64);
+  line-height: 3.2rem;
+  margin-bottom: 3.2rem;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+}
+
+a {
+  font-size: 1.6rem;
+  color: #090039;
+  text-decoration: none;
+  line-height: 3.2rem;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  margin-top: 7.2rem;
+}
+
+ul li {
+  color: #090039;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  max-width: 25.7rem;
+  display: flex;
+  gap: 3.8rem;
+}
+
+ul li span {
+  font-size: 7.2rem;
+  font-weight: 800;
+  line-height: 8rem;
+  letter-spacing: -2px;
+}
